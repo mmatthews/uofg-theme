@@ -1,0 +1,22 @@
+name = University of Guelph
+
+description = UofG Accessible Drupal Theme
+version = VERSION
+core = 7.x
+base = false
+
+stylesheets[all][] = css/style.css
+
+regions[header] = Header
+regions[page] = Page
+regions[banner] = Banner
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[footer] = Footer
+
