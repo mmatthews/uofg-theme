@@ -43,7 +43,6 @@ body{
 
 #header .region-header{
   float: right;
-  width: 500px;
   text-align: right;
 }
 
@@ -133,4 +132,23 @@ img.banner{
 
 #footer a{
   color: #FCBB00;
+}
+
+@media screen and (max-width: 660px){
+
+  #header .region-header{
+    float: none;
+    text-align: left;
+  }
+
+  #block-user-login .form-item, #block-user-login .item-list li{
+    margin-left: 0;
+    margin-right: 1em;
+  }
+
+  #main-menu li{
+    display: block;
+    padding: 0.25em;
+  }
+
 }
