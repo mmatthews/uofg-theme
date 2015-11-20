@@ -8,6 +8,18 @@ input, textarea, button{
   font-family: "Roboto", Helvetica, arial, sans-serif;
 }
 
+a, a:visited{
+  color: #0D5AC6;
+}
+
+a:hover, a:focus{
+  color: #2B83E6;
+}
+
+a:active{
+  color: #7E1514;
+}
+
 body{
   max-width: 960px;
   margin: 0 auto;
@@ -51,7 +63,7 @@ body{
   font-size: 1em;
 }
 
-#block-user-login input[type="submit"]{
+#block-user-login input[type=submit]{
   background: none;
   border: none;
   border-radius: 2px;
@@ -61,7 +73,7 @@ body{
   cursor: pointer;
 }
 
-#block-user-login input[type="submit"]:hover, #block-user-login input[type="submit"]:focus{
+#block-user-login input[type=submit]:hover, #block-user-login input[type=submit]:focus{
   color: #FCBB00;
 }
 
@@ -104,17 +116,10 @@ img.banner{
   padding-bottom: 4em;
 }
 
-#content a, #content a:visited{
-  color: #0D5AC6;
-}
-
 #content a:hover, #content a:focus{
   background: yellow;
 }
 
-#content a:active{
-  color: #7E1514;
-}
 
 #content p{
   line-height: 1.4;
