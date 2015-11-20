@@ -1,2 +1,2 @@
 # uofg-theme
-## Drupal Theme for UofG
+A example of a Drupal Theme for the University of Guelph
