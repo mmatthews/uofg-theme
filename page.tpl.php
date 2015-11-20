@@ -126,18 +126,22 @@
       <div id="content" class="column"><div class="section">
         <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
         <a id="main-content"></a>
+
         <?php print render($title_prefix); ?>
         <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
         <?php print render($title_suffix); ?>
+
         <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
         <?php print render($page['help']); ?>
         <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
 
         <!-- Print Banner if on home page -->
-        <?php if ($front_page) : print '<img src="/img/banner.jpg" alt="Overlooking Johnston Green at Guelph University" />'; endif; ?>
+        <?php if ($is_front) : print '<img class="banner" src="http://admission.uoguelph.ca/sites/default/files/images/johnston.jpg" alt="Overlooking Johnston Green at Guelph University" />'; endif; ?>
 
         <?php print render($page['content']); ?>
-        <?php print $feed_icons; ?>
+
+        <!-- Disable feed Icons -->
+        <?php //print $feed_icons; ?>
       </div></div> <!-- /.section, /#content -->
 
       <?php if ($page['sidebar_first']): ?>
